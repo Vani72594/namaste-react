@@ -1,6 +1,35 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+*, :after, :before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -ms-text-size-adjust: none;
+  outline: none;
+}
+
+body {  
+  font-weight:300;
+  color:#282c3f;
+  line-height:1.15;
+  font-size:14px;
+  letter-spacing:0;
+}  
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: inherit; 
+  -webkit-text-size-adjust: none; 
+  -webkit-tap-highlight-color: transparent; 
+  -ms-text-size-adjust: none; 
+  outline: none;
+} 
+
 .OF_5P { 
   max-width: 800px; 
   min-height: 800px; 
@@ -240,6 +269,11 @@ button {
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
 } 
+
+.icon-star:before { 
+  content: "\E938";
+} 
+
 .RestaurantTimeCost_icon__8UdT4 { 
   vertical-align: bottom; 
   margin-right: 10px;
